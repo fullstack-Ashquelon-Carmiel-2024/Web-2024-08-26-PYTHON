@@ -29,9 +29,21 @@ in bash
 > deactivate
 )
 
-6. Check which virtual environment is activated now:
+6. Install pipenv:
+
+> pip install pipenv
+
+Check which virtual environment is activated now:
 
 > pipenv --venv
+
+If pipenv is not found install it globally:
+
+> py -m pip install pipenv
+
+or for the user globally
+
+> pip install pipenv --user
 
 7. > pip install flask
 
