@@ -14,7 +14,9 @@ edit PATH and enter there the python.exe location
 
 > pip list 
 
-4. Create virtual environment for our app:
+4. > cd <project dir>
+
+Create virtual environment for our app:
 > python -m venv .venv
 
 5. To activate the virtual environment
@@ -71,5 +73,12 @@ Python: Select interpreter
 
 After that in some other place we can restore this environment:
 > pip install -r requirements.txt
+
+Each time when we install smth we should run the "freeze"
+
+to keep requirements.txt up to date, like
+
+> pip install flask && pip freeze > requirements.txt
+
 
 11. 
